@@ -1,0 +1,22 @@
+{
+  "name": "eslint-config-cit-yukang",
+  "version": "0.0.1",
+  "description": "cit eslint 代码规范",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yujingxiacai/eslint-config-cit-yukang.git"
+  },
+  "keywords": [
+    "eslint-config-cit"
+  ],
+  "author": "yujingxiacai <shenyukang@126.com> (https://github.com/yujingxiacai)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yujingxiacai/eslint-config-cit-yukang/issues"
+  },
+  "homepage": "https://github.com/yujingxiacai/eslint-config-cit-yukang#readme"
+}

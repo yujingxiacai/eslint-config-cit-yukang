@@ -185,4 +185,8 @@ module.exports = {
 
 #### prettier 配置
 
-可以参考下载依赖后，node_modules/eslint-config-yuuu 下的文件
+可以参考下载依赖后，node_modules/eslint-config-yuuu 下的文件`.prettierrc.js`文件。复制到当前 workplace 跟目录下。
+
+#### vscode 配置
+
+可以参考下载依赖后，node_modules/eslint-config-yuuu 下的文件`.vscode`文件夹，可以 copy 到当前 workplace 根目录下。

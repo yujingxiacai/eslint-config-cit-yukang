@@ -4,11 +4,7 @@
  *
  */
 module.exports = {
-	// 以当前目录为根目录，不再向上查找 .eslintrc.js
-	root: true,
-	// 解析器为@babel/eslint-parser，使用前提需要下载@babel/core
 	parser: '@babel/eslint-parser',
-	// 解析器配置
 	parserOptions: {
 		ecmaVersion: 2019,
 		// ECMAScript modules 模式
@@ -31,6 +27,7 @@ module.exports = {
 		commonjs: true,
 		es6: true,
 	},
+	// 以当前目录为根目录，不再向上查找 .eslintrc.js
 	rules: {
 		/**
 		 * 统一用单引号
@@ -444,9 +441,9 @@ module.exports = {
 		'no-invalid-regexp': 'error',
 		/**
 		 * 禁止在类之外的地方使用 this
-		 * @reason 只允许在 class 中使用 this
+		 * @reason 只允许在 class 中使用 this | 小程序除外
 		 */
-		'no-invalid-this': 'error',
+		'no-invalid-this': 'off',
 		/**
 		 * 禁止使用特殊空白符（比如全角空格），除非是出现在字符串、正则表达式或模版字符串中
 		 */
@@ -953,5 +950,17 @@ module.exports = {
 				onlyEquality: true,
 			},
 		],
+	},
+	globals: {
+		__DEV__: true,
+		__WECHAT__: true,
+		__ALIPAY__: true,
+		App: true,
+		Page: true,
+		Component: true,
+		Behavior: true,
+		wx: true,
+		getApp: true,
+		getCurrentPages: true,
 	},
 };

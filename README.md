@@ -10,7 +10,7 @@ yuuu eslint 代码规范
 
     使用如下命令安装依赖
 
-`npm install -D eslint @babel/eslint-parser eslint-config-yuuu`
+`npm install -D eslint @babel/core @babel/eslint-parser eslint-config-yuuu`
 
 在你的项目的根目录下创建一个 .eslintrc.js 文件，并将以下内容复制进去：
 
@@ -44,7 +44,7 @@ module.exports = {
 
     使用如下命令安装依赖
 
-`npm install -D eslint @babel/eslint-parser eslint-plugin-react eslint-config-yuuu`
+`npm install -D eslint @babel/core @babel/eslint-parser eslint-plugin-react eslint-config-yuuu`
 
 在你的项目的根目录下创建一个 .eslintrc.js 文件，并将以下内容复制进去：
 
@@ -79,7 +79,7 @@ module.exports = {
 
     使用如下命令安装依赖
 
-`npm install -D eslint @babel/eslint-parser vue-eslint-parser eslint-plugin-vue eslint-config-yuuu`
+`npm install -D eslint @babel/core @babel/eslint-parser vue-eslint-parser eslint-plugin-vue eslint-config-yuuu`
 
 在你的项目的根目录下创建一个 .eslintrc.js 文件，并将以下内容复制进去：
 

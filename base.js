@@ -51,10 +51,9 @@ module.exports = {
 	root: true,
 	rules: {
 		/**
-		 * 统一沿用单引号设置
+		 * 统一用单引号
 		 */
-        "quotes": ['error', 'single'],
-        
+		quotes: ['error', 'single'],
 
 		/**
 		 * setter 必须有对应的 getter，getter 可以没有对应的 setter
@@ -897,7 +896,7 @@ module.exports = {
 		/**
 		 * parseInt 必须传入第二个参数
 		 */
-		"radix": 'error',
+		radix: 'error',
 		/**
 		 * 禁止将 await 或 yield 的结果做为运算符的后面项
 		 * @reason 这样会导致不符合预期的结果
@@ -945,7 +944,7 @@ module.exports = {
 		/**
 		 * 禁止使用 'strict';
 		 */
-		"strict": ['error', 'never'],
+		strict: ['error', 'never'],
 		/**
 		 * 创建 Symbol 时必须传入参数
 		 */
@@ -965,7 +964,7 @@ module.exports = {
 		/**
 		 * 必须使用 if (foo === 5) 而不是 if (5 === foo)
 		 */
-		"yoda": [
+		yoda: [
 			'error',
 			'never',
 			{

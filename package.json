@@ -1,6 +1,6 @@
 {
 	"name": "eslint-config-yuuu",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"description": "cit eslint 代码规范",
 	"main": "index.js",
 	"scripts": {
@@ -21,7 +21,5 @@
 		"url": "https://github.com/yujingxiacai/eslint-config-cit-yukang/issues"
 	},
 	"homepage": "https://github.com/yujingxiacai/eslint-config-cit-yukang#readme",
-	"devDependencies": {
-		"standard-version": "^9.1.1"
-	}
+	"devDependencies": {}
 }

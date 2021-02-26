@@ -46,6 +46,22 @@ module.exports = {
 
 `npm install -D eslint @babel/core @babel/eslint-parser eslint-plugin-react eslint-config-yuuu`
 
+**注**：react 项目如有报@babel/preset-react 的错误，注意提前配置好.babelrc.js， 不然 jsx 解析会报错！！！
+
+```JavaScript
+module.exports = {
+  presets: [
+    [
+      "@babel/preset-react",
+      {
+        development: process.env.BABEL_ENV === "development",
+      },
+    ],
+  ],
+};
+
+```
+
 在你的项目的根目录下创建一个 .eslintrc.js 文件，并将以下内容复制进去：
 
 ```JavaScript

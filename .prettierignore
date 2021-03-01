@@ -1,2 +1,5 @@
 .eslintrc.*
-rules/*.js
+base.js
+react.js
+vue.js
+typescript.js

@@ -117,7 +117,7 @@ module.exports = {
 		/**
 		 * 必须使用 === 或 !==，禁止使用 == 或 !=
 		 */
-		eqeqeq: ['error', 'always'],
+		'eqeqeq': ['error', 'always'],
 		/**
 		 * 禁止方向错误的 for 循环
 		 */
@@ -194,9 +194,9 @@ module.exports = {
 		 */
 		'max-lines-per-function': 'off',
 		/**
-		 * 回调函数嵌套禁止超过 3 层，多了请用 async await 替代
+		 * 回调函数嵌套禁止超过 5 层，多了请用 async await 替代
 		 */
-		'max-nested-callbacks': ['error', 3],
+		'max-nested-callbacks': ['error', 5],
 		/**
 		 * 函数的参数禁止超过 3 个
 		 */
@@ -878,7 +878,7 @@ module.exports = {
 		/**
 		 * parseInt 必须传入第二个参数
 		 */
-		radix: 'error',
+		'radix': 'error',
 		/**
 		 * 禁止将 await 或 yield 的结果做为运算符的后面项
 		 * @reason 这样会导致不符合预期的结果

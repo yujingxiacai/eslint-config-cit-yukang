@@ -242,3 +242,25 @@ module.exports = {
 #### vscode 配置
 
 可以参考下载依赖后当前工作空间 node_modules/eslint-config-yuuu 路径下的`.vscode`文件夹，可以 copy 到当前 workplace 根目录下。
+
+# 命令行使用方式
+
+---
+
+**保证自己安装了 node 环境，并且安装了 eslint，才可执行以下命令哦！！！**
+
+eg:
+
+`eslint -c .eslintrc.js --ext .js --ext .ts --ext .jsx --ext .tsx --ext .vue -o report.json -f json "src/**"`
+
+    使用 当前目录下.eslintrc.js 配置文件 对当前目录src目录下所有的 js、ts、jsx、tsx、vue等类型文件进行规则扫描，并产出json类型的文件report.json，其中就是此次检验的结果
+
+以上就可以预先统一提取出来几种 eslint 配置脚本(并且最好统一扫描目录 src[团队规则中也应该统一项目目录！！！])：
+
+**.eslintrc.js**  
+ **.react.eslintrc.js**  
+ **.vue.eslintrc.js**  
+ **.typescript.eslintrc.js**  
+ **.typescript.react.eslintrc.js**
+
+详细命令请运行`eslint -h`查看！！！

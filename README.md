@@ -243,7 +243,7 @@ module.exports = {
 
 可以参考下载依赖后当前工作空间 node_modules/eslint-config-yuuu/com_config 路径下的`.vscode`文件夹，可以 copy 到当前 workplace 根目录下。
 
-或者你直接在项目根目录下执行`cp -r node_modules/eslint-config-yuuu/com_config/* ./`
+或者你直接在项目根目录下执行`cp -r node_modules/eslint-config-yuuu/com_config/.* ./`
 
 # 命令行使用方式
 

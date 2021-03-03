@@ -11,7 +11,7 @@ module.exports = {
 	// 使用单引号
 	singleQuote: true,
 	// 对象的 key 仅在必要时用引号
-	quoteProps: 'as-needed',
+	quoteProps: 'preserve',
 	// jsx 不使用单引号，而使用双引号
 	jsxSingleQuote: false,
 	// 末尾需要有逗号

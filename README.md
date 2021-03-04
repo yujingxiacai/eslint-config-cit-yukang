@@ -253,7 +253,7 @@ module.exports = {
 
 eg:
 
-`eslint -c .eslintrc.js --ext .js --ext .ts --ext .jsx --ext .tsx --ext .vue -o report.json -f json "src/**"`
+`eslint -c .eslintrc.js --ext .js,.jsx,.ts,.tsx,.vue -o report.json -f json "src/**"`
 
     使用 当前目录下.eslintrc.js 配置文件 对当前目录src目录下所有的 js、ts、jsx、tsx、vue等类型文件进行规则扫描，并产出json类型的文件report.json，其中就是此次检验的结果
 

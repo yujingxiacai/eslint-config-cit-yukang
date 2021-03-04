@@ -833,7 +833,7 @@ module.exports = {
 		/**
 		 * 申明后不再被修改的变量必须使用 const 来申明
 		 */
-		'prefer-const': 'error',
+		'prefer-const': 1,
 		/**
 		 * 必须使用解构赋值
 		 */

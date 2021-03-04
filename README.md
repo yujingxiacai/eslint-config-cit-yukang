@@ -130,7 +130,7 @@ module.exports = {
 
     使用如下命令安装依赖
 
-`npm install -D typescript @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-config-yuuu`
+`npm install -D eslint typescript @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-config-yuuu`
 
 在你的项目的根目录下创建一个 .eslintrc.js 文件，并将以下内容复制进去：
 
@@ -165,7 +165,7 @@ module.exports = {
 
     使用如下命令安装依赖
 
-`npm install -D typescript @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-plugin-react eslint-config-yuuu`
+`npm install -D eslint typescript @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-plugin-react eslint-config-yuuu`
 
 在你的项目的根目录下创建一个 .eslintrc.js 文件，并将以下内容复制进去：
 
@@ -237,11 +237,13 @@ module.exports = {
 
 #### prettier 配置
 
-可以参考下载依赖后当前工作空间 node_modules/eslint-config-yuuu 路径下的`.prettierrc.js`文件。复制到当前 workplace 跟目录下。
+可以参考下载依赖后当前工作空间 node_modules/eslint-config-yuuu/com_config 路径下的`.prettierrc.js`文件。复制到当前 workplace 跟目录下。
 
 #### vscode 配置
 
-可以参考下载依赖后当前工作空间 node_modules/eslint-config-yuuu 路径下的`.vscode`文件夹，可以 copy 到当前 workplace 根目录下。
+可以参考下载依赖后当前工作空间 node_modules/eslint-config-yuuu/com_config 路径下的`.vscode`文件夹，可以 copy 到当前 workplace 根目录下。
+
+或者你直接在项目根目录下执行`cp -r node_modules/eslint-config-yuuu/com_config/.* ./`
 
 # 命令行使用方式
 
@@ -251,7 +253,7 @@ module.exports = {
 
 eg:
 
-`eslint -c .eslintrc.js --ext .js --ext .ts --ext .jsx --ext .tsx --ext .vue -o report.json -f json "src/**"`
+`eslint -c .eslintrc.js --ext .js,.jsx,.ts,.tsx,.vue -o report.json -f json "src/**"`
 
     使用 当前目录下.eslintrc.js 配置文件 对当前目录src目录下所有的 js、ts、jsx、tsx、vue等类型文件进行规则扫描，并产出json类型的文件report.json，其中就是此次检验的结果
 

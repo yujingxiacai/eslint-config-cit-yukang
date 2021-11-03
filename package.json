@@ -1,6 +1,6 @@
 {
 	"name": "eslint-config-yuuu",
-	"version": "0.2.1",
+	"version": "0.2.2",
 	"description": "cit eslint 代码规范",
 	"main": "index.js",
 	"scripts": {
@@ -11,9 +11,9 @@
 		"type": "git",
 		"url": "git+https://github.com/yujingxiacai/eslint-config-cit-yukang.git"
 	},
-    "publishConfig": {
-        "registry": "http://nexus.sensetime.lan/repository/cit-npm/"
-     },
+	"publishConfig": {
+		"registry": "http://nexus.sensetime.lan/repository/cit-npm/"
+	},
 	"keywords": [
 		"eslint-config",
 		"eslint-config-yuuu"

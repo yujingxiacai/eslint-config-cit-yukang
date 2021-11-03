@@ -1,0 +1,7 @@
+interface a {
+
+}
+
+type p = {
+
+}

@@ -56,10 +56,10 @@ module.exports = {
 			},
 		],
 		/**
-		 * 优先使用 interface 而不是 type
-		 * @reason interface 可以 implement, extend 和 merge
+		 * 不用强制限制使用interface，type和interface可以替换使用，主要看自己需求
+		 * @reason interface 可以 implement, extend 和 merge，type可能更适合在component组件变量声明上，不能重写修改
 		 */
-		'@typescript-eslint/consistent-type-definitions': [1, 'interface'],
+		'@typescript-eslint/consistent-type-definitions': 0,
 		/**
 		 * 必须使用 import type 导入类型
 		 */
